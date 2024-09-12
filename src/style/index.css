@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Medium";
+  src: url("/src/assets/Font/circular-std-medium-500.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url("/src/assets/Font/CircularStd-Book.ttf") format("truetype");
+}
+
