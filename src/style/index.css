@@ -12,3 +12,51 @@
   src: url("/src/assets/Font/CircularStd-Book.ttf") format("truetype");
 }
 
+.border-background-left {
+  border-image: linear-gradient(to left, #ffffff, #185f9a);
+  border-image-slice: 1;
+  border-right: none;
+}
+.border-background-right {
+  border-image: linear-gradient(to left, #ffffff, #185f9a);
+  border-image-slice: 1;
+  border-right: none;
+}
+
+.border-background {
+  border-image: linear-gradient(to right, #ffffff, #185f9a);
+  border-image-slice: 1;
+  border-left: none;
+  border-radius: 10px;
+}
+.bgColor {
+  background-image: linear-gradient(to right, #f9fafd, #f0f9f8);
+}
+.bgColor2 {
+  background-image: linear-gradient(to right, #f9fafd, #e9f7f6);
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.hover-btn {
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+}

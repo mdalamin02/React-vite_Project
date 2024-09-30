@@ -6,7 +6,7 @@ import CompanySubMenu from "./SubMenus/CompanySubMenu";
 import ServicesSubMenu from "./SubMenus/ServicesSubMenu";
 
 const Navbar = () => {
-  const [openDropdown, setOpenDropdown] = useState(menuItems[0].title);
+  const [openDropdown, setOpenDropdown] = useState(null);
 
   return (
     <div>
